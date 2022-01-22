@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6825984348716552739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6825984348716552920}
+  - component: {fileID: 6825984348716552927}
+  - component: {fileID: 6825984348716552926}
+  - component: {fileID: 6825984348716552925}
+  - component: {fileID: 6825984348716552922}
+  - component: {fileID: 6825984348716552921}
+  m_Layer: 0
+  m_Name: AA_LeftTilt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6825984348716552920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6825984348716552739}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.953663, y: 23.89347, z: -37.00221}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &6825984348716552927
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6825984348716552739}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: c2f807ce600ad4f66a63e4a28b95c03e, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 7614737284516794509, guid: 828e2e592c1b049498d4513e52058889, type: 2}
+    value: {fileID: 6825984348716552926}
+  - key: {fileID: 3610334725943912632, guid: 828e2e592c1b049498d4513e52058889, type: 2}
+    value: {fileID: 6825984348716552739}
+  - key: {fileID: -1074069878812333054, guid: c2f807ce600ad4f66a63e4a28b95c03e, type: 2}
+    value: {fileID: 6825984348716552926}
+  m_ExposedReferences:
+    m_References: []
+--- !u!95 &6825984348716552926
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6825984348716552739}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac9c3a79e9b4e4babafd38810f317346, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6825984348716552925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6825984348716552739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: d2aa6564170d54969985c01b15d2ff1f, type: 2}
+    - {fileID: 11400000, guid: 3268dd1ab161440cb86c068f623c7525, type: 2}
+    - {fileID: 11400000, guid: 930e4b0446fbc4a2e9bfc0f64fd1ecb1, type: 2}
+    - {fileID: 11400000, guid: 6d0d554a5a5c3424db3aaab59bea0e56, type: 2}
+    - {fileID: 11400000, guid: 7fc3328814931443ab091b9bb6f83b81, type: 2}
+    - {fileID: 11400000, guid: 155055bf7c84d457e92ce9c240a627b3, type: 2}
+    - {fileID: 11400000, guid: d6bb627fa79854f86815ab2b7ce49663, type: 2}
+    - {fileID: 11400000, guid: dc3a09e89c015480ca65eed7d8848bbb, type: 2}
+    - {fileID: 11400000, guid: ecbb7983b6c26481c94908753fe724cd, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6825984348716552921}
+          m_TargetAssemblyTypeName: TTW.Combat.AbilityAnimationController, Assembly-CSharp
+          m_MethodName: SetCameraCaster
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6825984348716552921}
+          m_TargetAssemblyTypeName: TTW.Combat.AbilityAnimationController, Assembly-CSharp
+          m_MethodName: SendAttackPacket
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6825984348716552921}
+          m_TargetAssemblyTypeName: TTW.Combat.AbilityAnimationController, Assembly-CSharp
+          m_MethodName: SetCameraTarget
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6825984348716552921}
+          m_TargetAssemblyTypeName: TTW.Combat.AbilityAnimationController, Assembly-CSharp
+          m_MethodName: AnimationEnd
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6825984348716552922}
+          m_TargetAssemblyTypeName: TTW.Combat.AbilityCamera, Assembly-CSharp
+          m_MethodName: DutchAngle
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: -8
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6825984348716552922}
+          m_TargetAssemblyTypeName: TTW.Combat.AbilityCamera, Assembly-CSharp
+          m_MethodName: DutchAngle
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6825984348716552921}
+          m_TargetAssemblyTypeName: TTW.Combat.AbilityAnimationController, Assembly-CSharp
+          m_MethodName: SetCameraField
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6825984348716552921}
+          m_TargetAssemblyTypeName: TTW.Combat.AbilityAnimationController, Assembly-CSharp
+          m_MethodName: SetCameraHome
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6825984348716552921}
+          m_TargetAssemblyTypeName: TTW.Combat.AbilityAnimationController, Assembly-CSharp
+          m_MethodName: BroadcastEvent
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &6825984348716552922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6825984348716552739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b428264e54a44d8acc32ef7d8e0383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraActive: 1
+  primaryCamera: {fileID: 0}
+  casterCamera: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fieldCamera: {fileID: 0}
+--- !u!114 &6825984348716552921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6825984348716552739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845d7cda1f1994088b022f964a77d290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caster: {fileID: 0}
+  targets: []
+  abilityCamera: {fileID: 0}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030e8288c24324f79840696d64487d8a, type: 3}
+  m_Name: Wendigo 1
+  m_EditorClassIdentifier: 
+  abilities:
+  - {fileID: 11400000, guid: 95a5b7a86fe6f4fbbb8830fb0f77966a, type: 2}
+  - {fileID: 11400000, guid: bbe5c3d545fbe4c2898da003775da541, type: 2}
+  - {fileID: 11400000, guid: fb18580c513c046ccb9104903eac70f3, type: 2}
+  entries: 010000000100000001000000
+  combo:
+  - {fileID: 11400000, guid: fb18580c513c046ccb9104903eac70f3, type: 2}
+  - {fileID: 11400000, guid: bbe5c3d545fbe4c2898da003775da541, type: 2}
+  - {fileID: 11400000, guid: df0a5a645cf594af6acc09f5b9a4664a, type: 2}
+  healthPercentageThreshold: 0

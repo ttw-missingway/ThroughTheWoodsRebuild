@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1889439604376602555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7245882994155721856}
+  - component: {fileID: 5501608108449869258}
+  - component: {fileID: 9042129966383434078}
+  m_Layer: 0
+  m_Name: default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7245882994155721856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889439604376602555}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7853917127101588952}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5501608108449869258
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889439604376602555}
+  m_Mesh: {fileID: -2432090755550338912, guid: f5a1936206c564b2a91f760341d4e255, type: 3}
+--- !u!23 &9042129966383434078
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889439604376602555}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -3033667219593020291, guid: f5a1936206c564b2a91f760341d4e255, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7472994259441778530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7853917127101588952}
+  - component: {fileID: 7742815302774860870}
+  - component: {fileID: 7742815302774860871}
+  - component: {fileID: 7742815302774860868}
+  - component: {fileID: 7742815302774860869}
+  - component: {fileID: 7742815302774860875}
+  - component: {fileID: 7742815302774860872}
+  - component: {fileID: 7742815302774860873}
+  - component: {fileID: 7742815302774860878}
+  - component: {fileID: 7742815302774860879}
+  - component: {fileID: 7742815302774860876}
+  - component: {fileID: 3818376398482060968}
+  m_Layer: 0
+  m_Name: Oroboros
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7853917127101588952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_LocalRotation: {x: 0.6298762, y: 0.07997092, z: -0.09730628, w: 0.7664151}
+  m_LocalPosition: {x: 28.3, y: -7.9, z: 8.2}
+  m_LocalScale: {x: 45.57084, y: 45.57084, z: 45.57084}
+  m_Children:
+  - {fileID: 7245882994155721856}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 78.83, y: 0, z: -14.471}
+--- !u!114 &7742815302774860870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce16c84aa83843ecbdd43ad62368ec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageCore: {fileID: 0}
+--- !u!114 &7742815302774860871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4acb8e0e3fceb43918b2a950181216fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCooldown: 5
+  emergencyCooldown: 10
+  comboStarted: 0
+  comboIndex: 0
+  currentDeck: {fileID: 0}
+  deckIndex: 0
+  selectedAbility: {fileID: 0}
+  selectedTargets: []
+  availableTargets: []
+--- !u!114 &7742815302774860868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66eecbf01d214555804a6ce6b44d72b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilities: []
+  usedLegendary: 0
+  usesDeck: 1
+  enemyDeck:
+  - {fileID: 11400000, guid: ebd62e5130d8949969fc47083f6460b6, type: 2}
+--- !u!114 &7742815302774860869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ec16564abd046e2b959eac7974cc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cooldown: 0
+  _channel: 0
+  _onCooldown: 0
+  _isChanneling: 0
+  _animationFreeze: 0
+  _menuFreeze: 0
+--- !u!114 &7742815302774860875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2040621ac204aeea09a98f0706e0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alive: 1
+  health: 0
+  baseHealth: 0
+  maxHealth: 0
+  heart: 0
+  heartModifier: 0
+  gait: 0
+  gaitModifier: 0
+  grit: 0
+  gritModifier: 0
+  spirit: 0
+  spiritModifier: 0
+  mind: 0
+  mindModifier: 0
+--- !u!114 &7742815302774860872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab6d14d77b9a40029e42383b7f521ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7742815302774860873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265e8e4f4936a487d9762657125fa01a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  criticalMultiplier: 3
+  residualMultiplier: 0.5
+--- !u!114 &7742815302774860878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4d9e50ffe9641208ef15fa1816f6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gridPos: {x: 3, y: 1}
+  wing: 2
+  wingOverride: 1
+  nonPositional: 0
+--- !u!114 &7742815302774860879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb0e7b72279f04983957a06903c533b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boss: {fileID: 0}
+  _distant: 0
+  blackShield: {fileID: 0}
+--- !u!114 &7742815302774860876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f827856e285747d59fb320d042a2a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetClass: 0
+--- !u!114 &3818376398482060968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472994259441778530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c8e8643fc064f00a78540c14ab4258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _state: 0
+  statusEffects: []
+  blind: 0
+  burn: 0
+  shock: 0
+  madness: 0
+  regen: 0
+  rebirth: 0
+  bubble: 0
+  mirror: 0
+  statusEffectShell: {fileID: 0}
+  protector: {fileID: 0}
+  counterAbility: {fileID: 0}
+  enchantment: {fileID: 0}
+  enchantmentSlot: {fileID: 0}

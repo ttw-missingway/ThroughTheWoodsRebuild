@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc2c051c460e8479b8387600334269e7, type: 3}
+  m_Name: Loose
+  m_EditorClassIdentifier: 
+  name: Loose
+  description: Ranged attack requiring a line of sight
+  artwork: {fileID: 0}
+  abilityAnimation: {fileID: 5259332715852013961, guid: 9193b396cb8c44fa8818ddcfe1936961, type: 3}
+  animationState: 2
+  targetEffect: {fileID: 0}
+  casterEffect: {fileID: 0}
+  projectile: {fileID: 7066020123838388306, guid: e911e3cfd584847dca83dcfd3275f887, type: 3}
+  stageEffect: {fileID: 0}
+  cellEffect: {fileID: 0}
+  fxCells: []
+  fxCellsSameAsTargetCells: 0
+  lookAtTarget: 0
+  targetingType: 2
+  gridTargetingCoordinates: []
+  canTargetObstacles: 0
+  attackChannelTime: 0
+  attackCD: 15
+  aiWaitTime: 0
+  damageType: 1
+  magicType: 0
+  damageFlat: 10
+  canRevive: 0
+  abilityAccuracy: 90
+  neutralState: 0
+  statusEffect: 0
+  statusEffectTimer: 0
+  statToChange: 0
+  statChangeValue: 0
+  attackVariant: 0
+  displacement: 0
+  globalDirection: 4
+  crowdScaled: 0
+  trapAbility: {fileID: 0}
+  trapShell: {fileID: 0}
+  useGridTargeting: 0
+  obstacleCreate: {fileID: 0}
+  isChainedAbility: 0
+  chainedAbility: {fileID: 0}
+  chainDelayTime: 0
+  casterProxy: {fileID: 0}
+  recoil: 0
+  recoilPercent: 0
+  counterSuccessRate: 100
+  trapSuccessRate: 0
+  enchantment: 0
+  refresh: 0
+  legendary: 0
+  neverMiss: 0
+  enemyEntity: []
+  entityMax: 0
+  wingsOnly: 0
+  summonFX: {fileID: 0}
+  enemyChange: {fileID: 0}
+  enemyPrefab: {fileID: 0}
+  usesRails: 0
+  relative: 0
+  startingCell: {x: 0, y: 0}
+  endingCell: {x: 0, y: 0}
+  starboardPath: {fileID: 0}
+  portPath: {fileID: 0}
+  bowPath: {fileID: 0}
+  support: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030e8288c24324f79840696d64487d8a, type: 3}
+  m_Name: Gevaudan 1
+  m_EditorClassIdentifier: 
+  abilities:
+  - {fileID: 11400000, guid: 285b869f76f6c4f1fa88ad05171b9dda, type: 2}
+  - {fileID: 11400000, guid: 07864d415c3a545008899ba067ff1b28, type: 2}
+  - {fileID: 11400000, guid: 22fbec271f5ab4ecab14d2b4b900ae5c, type: 2}
+  entries: 010000000100000001000000
+  combo:
+  - {fileID: 11400000, guid: 07864d415c3a545008899ba067ff1b28, type: 2}
+  - {fileID: 11400000, guid: 301b20d2e982b409db09b5a4d2a1c69f, type: 2}
+  healthPercentageThreshold: 0.5
+  wing: 0

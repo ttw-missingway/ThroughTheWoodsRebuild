@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030e8288c24324f79840696d64487d8a, type: 3}
+  m_Name: Cho Cho 1
+  m_EditorClassIdentifier: 
+  abilities:
+  - {fileID: 11400000, guid: 5f933ebdd54c048e2bc6f6bc9c06e788, type: 2}
+  - {fileID: 11400000, guid: 204079d00237d4e44a54f85e617e783e, type: 2}
+  - {fileID: 11400000, guid: d88991c89679a42898b461bc333fad9b, type: 2}
+  - {fileID: 11400000, guid: 3214a983cd9564b70ba4df4484b15d08, type: 2}
+  - {fileID: 11400000, guid: 0017582f3cd7040da9e77e73f63089fa, type: 2}
+  entries: 0200000002000000010000000100000001000000
+  combo:
+  - {fileID: 11400000, guid: 204079d00237d4e44a54f85e617e783e, type: 2}
+  - {fileID: 11400000, guid: c55edc934c9474565900b5bba046b775, type: 2}
+  healthPercentageThreshold: 0.66

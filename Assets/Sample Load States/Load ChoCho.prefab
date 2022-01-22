@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3735153286605305005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3735153286605305007}
+  - component: {fileID: 3735153286605305006}
+  m_Layer: 0
+  m_Name: PartyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3735153286605305007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3735153286605305005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.8, y: 4.6000004, z: -0.90999997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3735153286605305006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3735153286605305005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1dfad64865984f7887c407ce39e1ff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allActors:
+  - {fileID: 11400000, guid: 47d81ed3d1ba04a6fb92dd76cb0012e5, type: 2}
+  - {fileID: 11400000, guid: c8fb1414b5b2c443eb7d19dfa5a1b58b, type: 2}
+  - {fileID: 11400000, guid: a80c82f327c454772810c1042ed35504, type: 2}
+  - {fileID: 11400000, guid: 10b7054cca0d34a57ab6a5aa3be17185, type: 2}
+  - {fileID: 11400000, guid: 92c96304fd77c4c10bcee56a2673f930, type: 2}
+  - {fileID: 11400000, guid: b0cd61055eecc4992970d852dbf70be6, type: 2}
+  - {fileID: 11400000, guid: 2d2be7e1f03894231b5419ad54005616, type: 2}
+  - {fileID: 11400000, guid: 6967b0b4407934c27bfaea753226fc6c, type: 2}
+  - {fileID: 11400000, guid: 14921b8c2618b4d518cf26d2d87b2d98, type: 2}
+  - {fileID: 11400000, guid: 32c1c9429ef6549488d71e8b9e707b6f, type: 2}
+  - {fileID: 11400000, guid: 5f23bb5d4bc6f4c5597a9e6191f724a3, type: 2}
+  - {fileID: 11400000, guid: e5795e1ecd5614fbf8e7a579824a4055, type: 2}
+  actorsInParty:
+  - {fileID: 7504505116591470331, guid: 0baf2560e6ecc4b648c572bac79df661, type: 3}
+  - {fileID: 2999461084819682949, guid: 6cf76a19cfb2241848ec5c749181d35b, type: 3}
+  - {fileID: 4732731438355124513, guid: b9d521e7292164af1bd86b8a81864ebf, type: 3}
+  actorsOnBench:
+  - {fileID: 7299729646046367668, guid: d329c474940bc43979bfa47b5c2dc48f, type: 3}
+  - {fileID: 6076477206885804637, guid: 3289fa306fe0e44d6810576e31caee17, type: 3}
+  - {fileID: 7920407213031776492, guid: d61b72f0d862940a8b912a3332620d16, type: 3}
+  spawnPoints:
+  - {x: 1, y: 0}
+  - {x: 2, y: 0}
+  - {x: 3, y: 0}

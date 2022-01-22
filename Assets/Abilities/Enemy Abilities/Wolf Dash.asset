@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc2c051c460e8479b8387600334269e7, type: 3}
+  m_Name: Wolf Dash
+  m_EditorClassIdentifier: 
+  name: Wolf Dash
+  description: 
+  artwork: {fileID: 0}
+  abilityAnimation: {fileID: 5626834588074333504, guid: a068dd2b20d4b49d9ada9bae695ef02b, type: 3}
+  animationState: 9
+  targetEffect: {fileID: 0}
+  casterEffect: {fileID: 0}
+  projectile: {fileID: 0}
+  stageEffect: {fileID: 0}
+  cellEffect: {fileID: 0}
+  fxCells: []
+  fxCellsSameAsTargetCells: 0
+  lookAtTarget: 0
+  targetingType: 12
+  gridTargetingCoordinates:
+  - {x: 0, y: 1}
+  - {x: 0, y: 2}
+  - {x: 0, y: 3}
+  - {x: 0, y: 4}
+  canTargetObstacles: 0
+  attackChannelTime: 5
+  attackCD: 10
+  aiWaitTime: 0
+  damageType: 1
+  magicType: 0
+  damageFlat: 15
+  canRevive: 0
+  abilityAccuracy: 100
+  neutralState: 0
+  statusEffect: 0
+  statusEffectTimer: 0
+  statToChange: 0
+  statChangeValue: 0
+  attackVariant: 0
+  displacement: 0
+  globalDirection: 4
+  crowdScaled: 0
+  trapAbility: {fileID: 0}
+  trapShell: {fileID: 0}
+  useGridTargeting: 0
+  obstacleCreate: {fileID: 0}
+  isChainedAbility: 0
+  chainedAbility: {fileID: 0}
+  chainDelayTime: 0
+  casterProxy: {fileID: 0}
+  recoil: 0
+  recoilPercent: 0
+  counterSuccessRate: 0
+  trapSuccessRate: 0
+  enchantment: 0
+  refresh: 0
+  legendary: 0
+  neverMiss: 0
+  enemyEntity: []
+  entityMax: 0
+  wingsOnly: 0
+  summonFX: {fileID: 0}
+  enemyChange: {fileID: 0}
+  enemyPrefab: {fileID: 0}
+  usesRails: 1
+  relative: 1
+  startingCell: {x: 0, y: 0}
+  endingCell: {x: 0, y: 5}
+  starboardPath: {fileID: 6676879350547190857, guid: f1d5592ade03f4cd8a260651b1ea3c3a, type: 3}
+  portPath: {fileID: 464463007521107261, guid: c687f92679c0b4b97b6e96bda92bc35b, type: 3}
+  bowPath: {fileID: 0}
+  support: 0

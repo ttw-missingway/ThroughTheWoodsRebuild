@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc2c051c460e8479b8387600334269e7, type: 3}
+  m_Name: Pyra Major
+  m_EditorClassIdentifier: 
+  name: Pyra Major
+  description: 
+  artwork: {fileID: 0}
+  abilityAnimation: {fileID: 1128915978676510537, guid: d1aee89d9f6b44800bc93b6caba04023, type: 3}
+  targetingType: 3
+  gridTargetingCoordinates: []
+  canTargetObstacles: 0
+  attackChannelTime: 20
+  attackCD: 20
+  aiWaitTime: 0
+  damageType: 2
+  magicType: 3
+  damageFlat: 60
+  canRevive: 0
+  abilityAccuracy: 90
+  neutralState: 0
+  statusEffect: 0
+  statusEffectTimer: 0
+  statToChange: 0
+  statChangeValue: 0
+  attackVariant: 5
+  displacement: 0
+  globalDirection: 0
+  crowdScaled: 0
+  trapAbility: {fileID: 0}
+  trapShell: {fileID: 0}
+  useGridTargeting: 0
+  obstacleCreate: {fileID: 0}
+  isChainedAbility: 0
+  chainedAbility: {fileID: 0}
+  chainDelayTime: 0
+  casterProxy: {fileID: 0}
+  recoil: 0
+  recoilPercent: 0
+  counterSuccessRate: 0
+  trapSuccessRate: 0
+  enchantment: 0
+  refresh: 0
+  legendary: 0
+  neverMiss: 0
+  enemyEntity: []
+  entityMax: 0
+  wingsOnly: 0
+  usesRails: 0
+  relative: 0
+  startingCell: {x: 0, y: 0}
+  endingCell: {x: 0, y: 0}
+  starboardPath: {fileID: 0}
+  portPath: {fileID: 0}
+  bowPath: {fileID: 0}
+  support: 0
