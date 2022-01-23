@@ -86,6 +86,8 @@ namespace TTW.Combat
 
         private void Update()
         {
+            QuitGame();
+
             if (_freezeForAnimation) return;
 
             switch (selectionState)
@@ -307,6 +309,15 @@ namespace TTW.Combat
                     }
 
                     break;
+            }
+        }
+
+        private void QuitGame()
+        {
+            if (Input.GetKey(KeyCode.Escape))
+            {
+                print("quitting game");
+                Application.Quit();
             }
         }
 
